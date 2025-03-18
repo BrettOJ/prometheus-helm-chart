@@ -270,7 +270,7 @@ persistence:
   ## If undefined (the default) or set to null, no storageClassName spec is
   ## set, choosing the default provisioner.
   ##
-  storageClass: "local-storage"
+  #storageClass: "_"
   accessModes:
     - ReadWriteOnce
   size: 50Mi
