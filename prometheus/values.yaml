@@ -517,7 +517,7 @@ server:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    storageClass: "local-storage"
+    # storageClass: "_"
 
     ## Subdirectory of Prometheus server data Persistent Volume to mount
     ## Useful if the volume's root directory is not empty
@@ -1264,7 +1264,7 @@ alertmanager:
 
   persistence:
     size: 2Gi
-    storageClass: "local-storage"
+    #storageClass: "_"
 
   podSecurityContext:
     runAsUser: 65534
